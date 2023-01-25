@@ -1,7 +1,5 @@
 <script>
-    let cnt = 0;
+    import Box from "../components/Box.svelte"
 </script>
 
-<h1>Hello</h1>
-<p>Count: {cnt}</p>
-<button on:click={() => cnt++}>Increment</button>
+<Box/>
